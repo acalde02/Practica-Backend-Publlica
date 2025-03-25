@@ -34,6 +34,7 @@ Este proyecto corresponde a la práctica final de la asignatura **Programación 
 ├── models              # Modelos de MongoDB con Mongoose
 ├── routes              # Rutas del API
 ├── storage             # Carpeta donde se almacenan archivos subidos
+├── validators          # Validadores de usuario
 ├── utils               # Funciones de utilidad (como manejo de errores)
 ├── app.js              # Punto de entrada del servidor
 └── .env                # Variables de entorno
@@ -44,7 +45,8 @@ Este proyecto corresponde a la práctica final de la asignatura **Programación 
 ## Como entrar? 
 
 1. Clonar este repositotio.
-2. Crear un refresh token de outlook usando azure.
-3. Rellenar los datos de .env
-4. Instalar las dependencias con npm -i
-5. Levantar el repositorio con app.js
+2. Crear un refresh token de outlook usando azure y obtener el client id (crea un client_secret si te lo piden).
+3. Crear un cluster en mongo atlas
+5. Rellenar los datos de .env
+6. Instalar las dependencias con npm -i
+7. Levantar el repositorio con app.js
